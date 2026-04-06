@@ -14,3 +14,9 @@ git --version
 php -S localhost:8000 -t public
 ```
 Open: http://localhost:8000
+
+## Extra Features
+- Filter by status: `VIP`, `Active`, `New`
+- Search by customer name or email
+- Sort by spent amount or customer name
+- Implemented with GET query + `array_filter()` + `usort()`
