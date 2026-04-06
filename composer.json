@@ -1,0 +1,13 @@
+{
+    "name": "homin/mini-customer-management-app",
+    "description": "A tiny PHP customer management demo project",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
